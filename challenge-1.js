@@ -6,6 +6,17 @@ const secondaryPhone = '0219131568'
 let primaryValid = primaryPhone;
 let secondaryValid = secondaryPhone;
 
+/* if(isNaN(primaryValid) {
+    primaryValid = false;{
+ } else {
+    primaryValid = true;
+}
+if(isNaN(secondaryValid) {
+    secondaryValid = false;{
+ } else {
+    secondaryValid = true;
+}*/
+
 isNaN(primaryValid) ? primaryValid = false : primaryValid = true;
 isNaN(secondaryValid) ? secondaryValid = false : secondaryValid = true;
 
